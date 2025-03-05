@@ -12,8 +12,8 @@
   button {
   
     color: white;
-    background-color: #e9810b;
-    border-radius: 20px;
+    background-color: #47a12c;
+    border-radius: 15px;
     border: none;
     width: 200px;
     height: 40px;
@@ -26,6 +26,8 @@
   button:hover {
   
     color: black;
+    background-color: #fff;
+    opacity: 0.8;
     transition: 0.5s ease-in-out;
   
   }
@@ -198,6 +200,18 @@
     transition: visibility 0.8s ease-in-out;
   }
   
+  .efeito-cursor {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.efeito-cursor:hover {
+    transform: translateY(-5px);
+  
+  }
+
+
   /* media query - RESPONSIVIDADE-
   
   max-> valor menor que O NUMERO DO PIXEL, aplica o css do MEDIA.
